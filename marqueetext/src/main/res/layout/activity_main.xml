@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+   <!--简单示例-->
+    <TextView
+        android:text="@string/longWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+
+    <sh.geeko.marqueetext.marqueeText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="@string/longWord"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="20dp"
+
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+
+    <sh.geeko.marqueetext.marqueeText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="@string/longWord"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="20dp"
+
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        />
+
+    <!--激活焦点-->
+    android:focusable="true"
+    <!--单行显示-->
+    android:singleLine="true"
+    <!--这里设置为超出文本后滚动显示-->
+    android:ellipsize="marquee"
+    <!--这个是设置滚动几次，这里是无限循环-->
+    android:marqueeRepeatLimit="marquee_forever"
+    <!--TouchMode模式的焦点激活-->
+    android:focusableInTouchMode="true"
+    <!--横向超出后是否有横向滚动条-->
+    android:scrollHorizontally="true"
+
+
+</RelativeLayout>

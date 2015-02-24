@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MarqueeText</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="shortWord">Hello word!</string>
+    <string name="longWord">《三国志演义》现存的刊本以嘉靖壬午本（注：“嘉靖壬午本”即学术界习称的“嘉靖本”。严格地说，“嘉靖本”的简称是不准确的。因为刊行于嘉靖年间的《三国志演义》刊本不只一种。例如，叶逢春刊本即刊行于嘉靖二十七年(1548)。因此，改称其为“嘉靖壬午本”，比较合适。该本卷首有修髯子嘉靖壬午《三国志通俗演义引》，一般认为该本即刊行于此年。壬午是嘉靖元年(1522)。）为最早。在它之前，有没有更早的刊本？——这一直是学术界关注的问题。</string>
+</resources>
